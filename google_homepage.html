@@ -2,17 +2,46 @@
     <html>
         <head>
             <script></script>
-            <style></style>
+            <link rel="stylesheet" href="../../css_reset.css">
+            <style>
+             /* Header */
+
+             /* Header end */
+             /* Body */
+             .content-div {
+                 border: 3px solid black ;
+                 height: 100px;
+                 margin: 10px;
+             }
+             /* Body end */
+            </style>
         </head>
         <body>
             <header><h1>Merge branch test</h1></header>
             <main>
                 <div id="main-body">
-                    <div id="div-one"></div>
-                    <div id="div-two"></div>
-                    <div id="div-three"></div>
-                    <div id="div-four"></div>
-                    <div id="div-five"></div>
+                    <!-- search bar -->
+                    <div class="content-div" id="div-one">
+                        <div class="" id="div-searchbar">
+                            <div class="" id="div-searchbarleft"></div>
+                            <div class="" id="div-accounts"></div>
+                        </div>
+                        <div class="" id="div-searchoptions">
+                            <div class="" id="div-searchoptionsleft"></div>
+                            <div class="" id="div-empty"></div>
+                        </div>
+                    </div>
+                    <!-- search bar end -->
+                    <!-- results number -->
+                    <div class="content-div" id="div-two"></div>
+                    <!-- results number end -->
+                    <!-- search results -->
+                    <div class="content-div" id="div-three"></div>
+                    <!-- search results end -->
+                    <!-- footer div (maybe change it to footer?)  -->
+                    <div class="content-div" id="div-four"></div>
+                    <!-- footer div end -->
+                    <!-- <div class="content-div" id="div-five"></div> -->
                 </div>
             </main>
         </body>
