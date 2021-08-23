@@ -3,16 +3,48 @@
         <head>
             <script></script>
             <link rel="stylesheet" href="../../css_reset.css">
+            <title>The Odin Project - Google</title>
             <style>
+             /* To delete */
+             .box {
+                 border: 1px solid green;
+             }
+             h1 {
+                 display: block;
+                 font-size: 20px;
+                 text-align: center;
+             }
              /* Header */
-
              /* Header end */
              /* Body */
-             .content-div {
-                 border: 3px solid black ;
-                 height: 100px;
-                 margin: 10px;
+             #div-one {
+                 display: grid;
+                 grid-template-columns: 160px 750px 1fr 150px;
+                 grid-template-rows: 69px;
+                 border: 5px solid green;
+                 /*                  height: auto; */
              }
+             .grid-div {
+                 border: 2px solid crimson;
+                 background: ;
+
+             }
+             #div-image {
+                 /*                  align: center; */
+             }
+             #google-logo {
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 height: 30;
+                 width: 92;
+             }
+             /* .content-div {
+                border: 3px solid black ;
+                height: 100px;
+                margin: 10px;
+                } */
+
              /* Body end */
             </style>
         </head>
@@ -22,14 +54,23 @@
                 <div id="main-body">
                     <!-- search bar -->
                     <div class="content-div" id="div-one">
-                        <div class="" id="div-searchbar">
-                            <div class="" id="div-searchbarleft"></div>
-                            <div class="" id="div-accounts"></div>
+                        <div class="grid-div" id="div-image">
+                            <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
                         </div>
-                        <div class="" id="div-searchoptions">
-                            <div class="" id="div-searchoptionsleft"></div>
-                            <div class="" id="div-empty"></div>
+
+                        <div class="grid-div" id="div-search">
+
                         </div>
+                        <div class="grid-div" id="div-space"></div>
+                        <div class="grid-div" id="div-settings"></div>
+                        <!-- <div class="" id="div-searchbar">
+                             <div class="" id="div-searchbarleft"></div>
+                             <div class="" id="div-accounts"></div>
+                             </div>
+                             <div class="" id="div-searchoptions">
+                             <div class="" id="div-searchoptionsleft"></div>
+                             <div class="" id="div-empty"></div>
+                             </div> -->
                     </div>
                     <!-- search bar end -->
                     <!-- results number -->
@@ -44,5 +85,4 @@
                     <!-- <div class="content-div" id="div-five"></div> -->
                 </div>
             </main>
-        </body>
-    </html>
+        </body>    </html>
