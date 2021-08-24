@@ -23,7 +23,7 @@
                  grid-template-columns: 160px 750px 1fr 150px;
                  grid-template-rows: 69px;
                  border: 5px solid green;
-                 /*                  height: auto; */
+                 height: auto;
              }
              /* grid test  */
              .grid-div {
@@ -43,6 +43,12 @@
              }
 
              /* flexbox test  */
+             #div-image {
+                 display:flex;
+                 justify-content: center;
+                 align-items: center;
+
+             }
              #div-search {
                  display: flex;
                  justify-content: center;
@@ -52,15 +58,18 @@
                  width: 570px;
                  height:40px;
              }
+             .buttons {
+                 border: none;
+                 height: 30;
+                 width: 24;
+                 background-color: white;
+             }
              #delete-input {
                  /* border-color: white;
                     background-color: white */
-             }
+                 color: grey;
+            }
              #search-input {
-                 border: 1px solid black;
-                 height: 30;
-                 width: 30;
-                 background-color: white;
                  color: #4285f4;
              }
              .fa-times {
@@ -69,9 +78,16 @@
              .fa-search {
                  /* border: none;
                     color: #4285f4;
-                    background-color: white;
-                    height: 100%;
-                    width: 100%; */
+                    background-color: white; */
+             }
+             #div-settings {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+
+             #initial-image {
+                 border-radius: 20px;
              }
 
 
@@ -86,7 +102,7 @@
             </style>
         </head>
         <body>
-            <header><h1>Merge branch test</h1></header>
+            <header><h1>Google Search Results TOP</h1></header>
             <main>
                 <div id="main-body">
                     <!-- search bar -->
@@ -94,14 +110,17 @@
                         <div class="grid-div" id="div-image">
                             <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
                         </div>
-
                         <div class="grid-div" id="div-search">
-                            <input type="text" id="typed-input" placeholder="Search...">
-                            <button type="reset" id="delete-input"  value="reset"><i class="fas fa-times"></i></button>
-                            <button type="submit" id="search-input" value="submit"><i class="fas fa-search"></i></button>
+                            <input type="text" class ="" id="typed-input" placeholder="Search...">
+                            <button type="reset" class="buttons" id="delete-input"  value="reset"><i class="fas fa-times"></i></button>
+                            <button type="submit" class="buttons" id="search-input" value="submit"><i class="fas fa-search"></i></button>
                         </div>
                         <div class="grid-div" id="div-space"></div>
-                        <div class="grid-div" id="div-settings"></div>
+                        <div class="grid-div" id="div-settings">
+                            <button type="button" id="" value="" class="buttons"><i class="fas fa-cog"></i></button>
+                            <button type="button" id="" value="" class="buttons"><i class="fas fa-align-justify"></i></button>
+                            <button type="button" id="" value="" class="buttons"><img id="initial-image" src="https://lh3.googleusercontent.com/ogw/ADea4I6cPUZnlQyR2Fpc6SleRiBoI1JQmOrwRF10XW_l=s32-c-mo"> </button>
+                        </div>
                         <!-- <div class="" id="div-searchbar">
                              <div class="" id="div-searchbarleft"></div>
                              <div class="" id="div-accounts"></div>
