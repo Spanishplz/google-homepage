@@ -3,6 +3,7 @@
         <head>
             <script></script>
             <link rel="stylesheet" href="../../css_reset.css">
+            <script src="https://kit.fontawesome.com/a663ccc474.js" crossorigin="anonymous"></script>
             <title>The Odin Project - Google</title>
             <style>
              /* To delete */
@@ -24,6 +25,7 @@
                  border: 5px solid green;
                  /*                  height: auto; */
              }
+             /* grid test  */
              .grid-div {
                  border: 2px solid crimson;
                  background: ;
@@ -39,6 +41,41 @@
                  height: 30;
                  width: 92;
              }
+
+             /* flexbox test  */
+             #div-search {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+             #typed-input {
+                 width: 570px;
+                 height:40px;
+             }
+             #delete-input {
+                 /* border-color: white;
+                    background-color: white */
+             }
+             #search-input {
+                 border: 1px solid black;
+                 height: 30;
+                 width: 30;
+                 background-color: white;
+                 color: #4285f4;
+             }
+             .fa-times {
+
+             }
+             .fa-search {
+                 /* border: none;
+                    color: #4285f4;
+                    background-color: white;
+                    height: 100%;
+                    width: 100%; */
+             }
+
+
+             /* flexbox test end */
              /* .content-div {
                 border: 3px solid black ;
                 height: 100px;
@@ -59,7 +96,9 @@
                         </div>
 
                         <div class="grid-div" id="div-search">
-
+                            <input type="text" id="typed-input" placeholder="Search...">
+                            <button type="reset" id="delete-input"  value="reset"><i class="fas fa-times"></i></button>
+                            <button type="submit" id="search-input" value="submit"><i class="fas fa-search"></i></button>
                         </div>
                         <div class="grid-div" id="div-space"></div>
                         <div class="grid-div" id="div-settings"></div>
