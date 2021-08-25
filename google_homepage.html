@@ -25,11 +25,18 @@
                  border: 5px solid green;
                  height: auto;
              }
+             #div-two {
+                 display: grid;
+                 grid-template-columns: 615px 235px 1fr;
+                 grid-template-rows: 58px;
+                 border: 5px solid orange;
+                 /*                  height: auto; */
+             }
+
              /* grid test  */
-             .grid-div {
+             .div-box {
                  border: 2px solid crimson;
                  background: ;
-
              }
              #div-image {
                  /*                  align: center; */
@@ -51,7 +58,7 @@
              }
              #div-search {
                  display: flex;
-                 justify-content: center;
+                 justify-content: center;;
                  align-items: center;
              }
              #typed-input {
@@ -60,7 +67,7 @@
              }
              .buttons {
                  border: none;
-                 height: 30;
+                 height:;
                  width: 24;
                  background-color: white;
              }
@@ -68,7 +75,7 @@
                  /* border-color: white;
                     background-color: white */
                  color: grey;
-            }
+             }
              #search-input {
                  color: #4285f4;
              }
@@ -92,6 +99,38 @@
 
 
              /* flexbox test end */
+             #div-searchtypes {
+                 display: flex;
+                 justify-content: flex-end;
+                 align-items: flex-end;
+
+             }
+             .search-icons {
+                 border: none;
+                 height:;
+                 width: ;
+                 background-color: white;
+
+             }
+             #div-tools {
+                 display: flex;
+                 justify-content: flex-end;
+
+             }
+             #tools-icon {
+                 /*                  justify-self: flex-end; */
+                 align-self: flex-end;
+             }
+             #div-three {
+                 display: grid;
+                 grid-template-columns: 160px 652px 1fr;
+                 grid-template-rows: 58px;
+                 border: 5px solid blue;
+             }
+
+
+
+
              /* .content-div {
                 border: 3px solid black ;
                 height: 100px;
@@ -107,16 +146,16 @@
                 <div id="main-body">
                     <!-- search bar -->
                     <div class="content-div" id="div-one">
-                        <div class="grid-div" id="div-image">
+                        <div class="div-box" id="div-image">
                             <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
                         </div>
-                        <div class="grid-div" id="div-search">
+                        <div class="div-box" id="div-search">
                             <input type="text" class ="" id="typed-input" placeholder="Search...">
-                            <button type="reset" class="buttons" id="delete-input"  value="reset"><i class="fas fa-times"></i></button>
-                            <button type="submit" class="buttons" id="search-input" value="submit"><i class="fas fa-search"></i></button>
+                            <button type="reset" class="buttons" id="delete-input"  value="reset"><i class="fas fa-times fa-lg"></i></button>
+                            <button type="submit" class="buttons" id="search-input" value="submit"><i class="fas fa-search fa-lg"></i></button>
                         </div>
-                        <div class="grid-div" id="div-space"></div>
-                        <div class="grid-div" id="div-settings">
+                        <div class="div-box" id="div-space"></div>
+                        <div class="div-box" id="div-settings">
                             <button type="button" id="" value="" class="buttons"><i class="fas fa-cog"></i></button>
                             <button type="button" id="" value="" class="buttons"><i class="fas fa-align-justify"></i></button>
                             <button type="button" id="" value="" class="buttons"><img id="initial-image" src="https://lh3.googleusercontent.com/ogw/ADea4I6cPUZnlQyR2Fpc6SleRiBoI1JQmOrwRF10XW_l=s32-c-mo"> </button>
@@ -132,10 +171,26 @@
                     </div>
                     <!-- search bar end -->
                     <!-- results number -->
-                    <div class="content-div" id="div-two"></div>
+                    <div class="content-div" id="div-two">
+                        <div class="div-box" id="div-searchtypes">
+                            <!-- 7 icons with words -->
+                            <button type="button" class="search-icons" id="search-icon" value=""><i class="fas fa-search"> All</i></button>
+                            <button type="button" class="search-icons" id="images-icon" value=""><i class="fas fa-image"> Images</i></button>
+                            <button type="button" class="search-icons" id="videos-icon" value=""><i class="fab fa-youtube"></i>Videos</i></button>
+                            <button type="button" class="search-icons" id="news-icon" value=""><i class="fas fa-newspaper"> News</i></button>
+                            <button type="button" class="search-icons" id="books-icon" value=""><i class="fas fa-book"> Books</i></button>
+                            <button type="button" class="search-icons" id="more-icon" value=""><i class="fas fa-ellipsis-v"> More</i></button>
+                        </div>
+                        <div class="div-box" id="div-tools">
+                            <button type="button" class="search-icons" id="tools-icon" value=""><i class="fas fa-search"> Tools</i></button>
+                            <!-- just whitespace  -->
+                        </div>
+                    </div>
                     <!-- results number end -->
                     <!-- search results -->
-                    <div class="content-div" id="div-three"></div>
+                    <div class="content-div" id="div-three">
+
+                    </div>
                     <!-- search results end -->
                     <!-- footer div (maybe change it to footer?)  -->
                     <div class="content-div" id="div-four"></div>
