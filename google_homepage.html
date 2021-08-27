@@ -7,6 +7,11 @@
             <title>The Odin Project - Google</title>
             <style>
              /* To delete */
+             p {
+                 font-size: 10px;
+                 background-color: red;
+                 border: 2px solid green;
+             }
              .box {
                  border: 1px solid green;
              }
@@ -97,7 +102,6 @@
                  border-radius: 20px;
              }
 
-
              /* flexbox test end */
              #div-searchtypes {
                  display: flex;
@@ -127,7 +131,17 @@
                  grid-template-rows: 58px;
                  border: 5px solid blue;
              }
-
+             #search-counter {
+                 grid-column-start: 2;
+                 display: flex;
+                 justify-content: flex-end;
+                 align-items: flex-start;
+             }
+             #search-counter-position {
+                 display: flex;
+                 align-content: flex-end;
+                 /*                  align-items: flex-end; */
+             }
 
 
 
@@ -189,7 +203,9 @@
                     <!-- results number end -->
                     <!-- search results -->
                     <div class="content-div" id="div-three">
-
+                        <div class="div-box" id="search-counter">
+                            <p>About 29,200,000 results (0.45 seconds)</p>
+                        </div>
                     </div>
                     <!-- search results end -->
                     <!-- footer div (maybe change it to footer?)  -->
