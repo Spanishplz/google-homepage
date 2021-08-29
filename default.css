@@ -1,0 +1,146 @@
+             /* To delete */
+             p {
+                 font-size: 15px;
+                 background-color: purple;
+                 border: 2px solid green;
+             }
+             .box {
+                 border: 1px solid green;
+             }
+             h1 {
+                 display: block;
+                 font-size: 20px;
+                 text-align: center;
+             }
+             /* Header */
+             /* Header end */
+             /* Body */
+             #div-one {
+                 display: grid;
+                 grid-template-columns: 160px 750px 1fr 150px;
+                 grid-template-rows: 69px;
+                 border: 5px solid green;
+                 height: auto;
+             }
+             #div-two {
+                 display: grid;
+                 grid-template-columns: 615px 235px 1fr;
+                 grid-template-rows: 58px;
+                 border: 5px solid orange;
+                 /*                  height: auto; */
+             }
+
+             /* grid test  */
+             .div-box {
+                 border: 2px solid crimson;
+                 background: ;
+             }
+             #div-image {
+                 /*                  align: center; */
+             }
+             #google-logo {
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 height: 30;
+                 width: 92;
+             }
+
+             /* flexbox test  */
+             #div-image {
+                 display:flex;
+                 justify-content: center;
+                 align-items: center;
+
+             }
+             #div-search {
+                 display: flex;
+                 justify-content: center;;
+                 align-items: center;
+             }
+             #typed-input {
+                 width: 570px;
+                 height:40px;
+             }
+             .buttons {
+                 border: none;
+                 height:;
+                 width: 24;
+                 background-color: white;
+             }
+             #delete-input {
+                 /* border-color: white;
+                    background-color: white */
+                 color: grey;
+             }
+             #search-input {
+                 color: #4285f4;
+             }
+             .fa-times {
+
+             }
+             .fa-search {
+                 /* border: none;
+                    color: #4285f4;
+                    background-color: white; */
+             }
+             #div-settings {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
+
+             #initial-image {
+                 border-radius: 20px;
+             }
+
+             /* flexbox test end */
+             #div-searchtypes {
+                 display: flex;
+                 justify-content: flex-end;
+                 align-items: flex-end;
+
+             }
+             .search-icons {
+                 border: none;
+                 height:;
+                 width: ;
+                 background-color: white;
+
+             }
+             #div-tools {
+                 display: flex;
+                 justify-content: flex-end;
+
+             }
+             #tools-icon {
+                 /*                  justify-self: flex-end; */
+                 align-self: flex-end;
+             }
+             #div-three {
+                 display: grid;
+                 grid-template-columns: 225px 652px 1fr;
+                 grid-template-rows: 48px;
+                 border: 5px solid blue;
+             }
+             #search-counter {
+                 grid-column-start: 2;
+                 display: flex;
+                 justify-content: flex-start;
+                 align-items: center;
+             }
+             #search-counter-position {
+                 display: flex;
+                 align-content: flex-end;
+                 /*                  align-items: flex-end; */
+             }
+
+
+
+             /* .content-div {
+                border: 3px solid black ;
+                height: 100px;
+                margin: 10px;
+                } */
+
+             /* Body end */
