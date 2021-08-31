@@ -1,4 +1,3 @@
-             /* To delete */
              p {
                  font-size: 15px;
                  background-color:;
@@ -97,7 +96,7 @@
                  border-radius: 20px;
              }
 
-             /* flexbox test end */
+             /* Flexbox test end */
              #div-searchtypes {
                  display: flex;
                  justify-content: flex-end;
@@ -146,8 +145,46 @@
              }
              a:visited {
                  text-decoration: none;
-                 color: blue;
              }
+             #div-four {
+                 /* Testing with height auto */
+                 font-family: arial, sans-serif;
+                 height: auto;
+                 display: grid;
+                 grid-template-columns: 230px 700px 1fr;
+                 grid-template-rows: 1fr 1fr 1fr;
+             }
+             #content-main-div {
+                 grid-column: 2 / 3;
+                 grid-row: 1 / 4;
+                 display: flex;
+                 flex-wrap: wrap;
+                 /* align-content: space-between; */
+             }
+             .flex-results {
+                 background-color: lightyellow;
+                 height: auto;
+             }
+             .mini-results {
+                 /* padding: 20px 1px 10px 25px; */
+                 display: flex;
+                 flex-wrap: wrap;
+             }
+             .mini-result {
+                 margin-top: 15px;
+                 margin-left: 20px;
+                 margin-bottom: 10px;
+             }
+             #first-result {
+                 background-color: lightblue;
+             }
+             /* #second-result { */
+             /*     grid-row-start: 2; */
+             /* } */
+             /* #third-result { */
+             /*     grid-row-start: 3; */
+             /* } */
+
 
              #caret-down {
                  /* display: inline-block; */
@@ -159,3 +196,4 @@
              }
              /* RESULT CONTENT END */
              /* Body end */
+
