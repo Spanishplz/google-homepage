@@ -145,6 +145,7 @@
              }
              a:visited {
                  text-decoration: none;
+                 /* color:; */
              }
              #div-four {
                  /* Testing with height auto */
@@ -162,7 +163,7 @@
                  /* align-content: space-between; */
              }
              .flex-results {
-                 background-color: lightyellow;
+                 /* background-color: lightyellow; */
                  height: auto;
              }
              .mini-results {
@@ -174,10 +175,10 @@
                  margin-top: 15px;
                  margin-left: 20px;
                  margin-bottom: 10px;
+                 /* display: inline-block; */
              }
-             #first-result {
-                 background-color: lightblue;
-             }
+             /* #first-result { */
+             /* } */
              /* #second-result { */
              /*     grid-row-start: 2; */
              /* } */
@@ -196,4 +197,14 @@
              }
              /* RESULT CONTENT END */
              /* Body end */
-
+             .extra-results {
+                 /* display: inline-block; */
+                 /* width: 100%; */
+             }
+             #double-right {
+                 /* display: inline; */
+                 /* float: right; */
+                 /* display: inline; */
+             }
+             /* PEOPLE ASK  */
+             
