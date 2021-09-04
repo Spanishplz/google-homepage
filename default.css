@@ -242,3 +242,46 @@
                  /* display: inline; */
                  /* float: right; */
              }
+             /* VIDEO RESULTS */
+             #video-block {
+                 padding: 20px 0px 10px 0px;
+             }
+             #video-title-div {
+                 height: 40px;
+                 line-height: 40px;
+             }
+             #video-play-icon {
+                 display: inline;
+             }
+             #video-header {
+                 display: inline;
+             }
+             .video-images {
+                 width: 127;
+                 vertical-align: middle;
+                 /* height: auto; */
+                 /* display: inline; */
+             }
+             .video-info-div {
+                 display: inline-flex;
+                 flex-direction: column;
+                 vertical-align: middle;
+                 flex-wrap: wrap;
+                 height: 55px;
+                 justify-content: space-between;
+             }
+             #video-key-moments {
+                 background-color: #f0f6fd;
+                 /* height: 100px; */
+             }
+             /* VIDEO RESULTS END */
+             #timestamps-text {
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: space-between;
+             }
+             .p-timestamps {
+                 padding: 30px;
+                 display: inline;
+                 border-right: 1px solid lightgrey;
+             }
