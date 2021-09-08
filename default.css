@@ -420,3 +420,126 @@
              .fa-arrow-right {
                  color: #362bb5;
              }
+             /* END OF DIV 4 */
+             #div-five {
+                 font-family: arial, sans-serif;
+                 height: auto;
+                 display: grid;
+                 grid-template-columns: 230px 700px 1fr;
+                 grid-template-rows: 1fr;
+             }
+             #related-searches-div {
+                 grid-column: 2 / 3;
+                 grid-row: 1 / 4;
+                 /* border: 1px solid red; */
+             }
+             .related-titles-border {
+                 padding: 0px;
+                 margin: 12px 0px 12px 0px;
+             }
+             #best-resources-div {
+                 height: 56px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+                 border-top: 1px solid lightgrey;
+                 /* border-bottom: 1px solid lightgrey; */
+             }
+
+             #related-searches-images-div {
+                 /* background-color: orange; */
+                 display: grid;
+                 grid-template-rows: auto 1fr 1fr;
+             }
+             #related-images-blocks-div {
+                 display: flex;
+                 flex-direction: row;
+             }
+             #related-searches-images {
+
+             }
+             .related-images-blocks {
+                 /* border: 1px solid green; */
+                 background-color: #f7f7f7;
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: center;
+                 align-items: center;
+                 margin-left:
+                     10px;
+                 height: 100px;
+                 width: 100px;
+             }
+             .related-images-proportions {
+                 /* width: 90px; */
+                 /* height: auto; */
+                 height: auto;
+                 width: 100px;
+             }
+             #related-description-div {
+                 margin-top: 10px;
+                 grid-row-start: 2;
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: start
+                 align-items: center;
+             }
+             .p-related-description {
+                 display: inline-block;
+                 margin-left: 25px;
+                 width: 80px;
+             }
+             #view-more-related-searches {
+
+             }
+             #view-more-div {
+                 /* background-color: red; */
+                 display: flex;
+                 flex-direction: row;
+                 justify-content: center;
+                 /* border: 2px solid green; */
+
+             }
+             #view-more-button-div {
+                 /* background-color: yellow; */
+                 height: 26px;
+                 width: 300px;
+                 border-radius: 20px;
+                 display: grid;
+                 grid-template-columns: 1fr 1fr 1fr;
+                 justify-content: center;
+                 align-items: center;
+                 margin-top: 5px;
+                 margin-bottom: 20px;
+                 padding: 5px;
+                 border: 1px solid #dadce0;
+             }
+             #view-more-button {
+                 grid-column-start: 1;
+             }
+             #p-view-more {
+                 grid-column-start: 2;
+                 display: inline;
+             }
+             .extra-best-resources {
+                 height: 56px;
+                 display: flex;
+                 align-items: center;
+                 justify-content: space-between;
+                 border-top: 1px solid lightgrey;
+                 /* border-bottom: 1px solid lightgrey; */
+             }
+             /* EXTRA IMAGES */
+             .extra-resources-image {
+                 width: 40px;
+                 height: 40px;
+                 background-color: #f7f7f7;
+             }
+             .extra-images {
+                 width: 35px;
+             }
+             .extra-image-wrapper {
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+             }
