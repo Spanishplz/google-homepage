@@ -10,21 +10,7 @@
             </style>
         </head>
         <body>
-            <header><h1>Google Search Results TOP</h1></header>
             <main>
-                <footer>
-                    <div class="" id="footer-container">
-                        <div class="footer-div" id="div-location">
-                            <div id="div-country"><p>Peru</p></div>
-                            <div id="location-div">
-                                <span class="location-span">Ate</span>
-                                <span class="location-span">Based on your past activty</span>
-                                <span class="location-span">Update location</span>
-                            </div>
-                        </div>
-                        <div class="footer-div" id="div-help"></div>
-                    </div>
-                </footer>
                 <div id="main-body">
                     <!-- search bar -->
                     <div class="content-div" id="div-one">
@@ -32,11 +18,12 @@
                             <img id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google">
                         </div>
                         <div class="div-box" id="div-search">
-                            <input type="text" class ="" id="typed-input" placeholder="Search...">
-                            <button type="reset" class="buttons" id="delete-input"  value="reset"><i class="fas fa-times fa-lg"></i></button>
-                            <button type="submit" class="buttons" id="search-input" value="submit"><i class="fas fa-search fa-lg"></i></button>
+                            <div id="search-div-container">
+                                <input type="text" class ="" id="typed-input" placeholder="Search...">
+                                <!-- <button type="reset" class="buttons" id="delete-input"  value="reset"><i class="fas fa-times fa-lg"></i></button> -->
+                                <button type="submit" class="buttons" id="search-input" value="submit"><i class="fas fa-search fa-lg"></i></button>
+                            </div>
                         </div>
-                        <div class="div-box" id="div-space"></div>
                         <div class="div-box" id="div-settings">
                             <button type="button" id="" value="" class="buttons"><i class="fas fa-cog"></i></button>
                             <button type="button" id="" value="" class="buttons"><i class="fas fa-align-justify"></i></button>
@@ -46,15 +33,15 @@
                     <div class="content-div" id="div-two">
                         <div class="div-box" id="div-searchtypes">
                             <!-- 7 icons with words -->
-                            <button type="button" class="search-icons" id="search-icon" value=""><i class="fas fa-search"> All</i></button>
-                            <button type="button" class="search-icons" id="images-icon" value=""><i class="fas fa-image"> Images</i></button>
-                            <button type="button" class="search-icons" id="videos-icon" value=""><i class="fab fa-youtube"></i>Videos</i></button>
-                            <button type="button" class="search-icons" id="news-icon" value=""><i class="fas fa-newspaper"> News</i></button>
-                            <button type="button" class="search-icons" id="books-icon" value=""><i class="fas fa-book"> Books</i></button>
-                            <button type="button" class="search-icons" id="more-icon" value=""><i class="fas fa-ellipsis-v"> More</i></button>
+                            <button type="button" class="search-icons" id="search-icon" value=""><i class="fas fa-search fa-lg"></i><span>All</span></button>
+                            <button type="button" class="search-icons" id="images-icon" value=""><i class="fas fa-image fa-lg"></i><span>Images</span></button>
+                            <button type="button" class="search-icons" id="news-icon" value=""><i class="fas fa-newspaper fa-lg"></i><span>News</span></button>
+                            <button type="button" class="search-icons" id="videos-icon" value=""><i class="fab fa-youtube fa-lg"></i></i><span>Videos</span></button>
+                            <button type="button" class="search-icons" id="books-icon" value=""><i class="fas fa-book fa-lg"></i><span>Books</span></button>
+                            <button type="button" class="search-icons" id="more-icon" value=""><i class="fas fa-ellipsis-v fa-lg"></i><span>More</span></button>
                         </div>
                         <div class="div-box" id="div-tools">
-                            <button type="button" class="search-icons" id="tools-icon" value=""><i class="fas fa-search"> Tools</i></button>
+                            <button type="button" class="search-icons" id="tools-icon" value=""><i class="fas fa-search"></i><span>Tools</span></button>
                             <!-- just whitespace  -->
                         </div>
                     </div>
@@ -274,26 +261,6 @@
                                     </div>
                                 </a>
                             </div>
-
-                            <!-- <div class="div-results flex-results" id="second-result" style="">
-                                 <div class="result-link" id="" style="">
-                                 <span style="color:;"><p style="display: inline; background-color:;"><a href="https://www.theodinproject.com/" target="_blank">https://wwww.theodinproject.com</a></p></span>
-                                 <button type="button" class="buttons" id="caret-down" style="font-size: 15px;"><i class="fas fa-caret-down"></i></button>
-                                 </div>
-                                 <h3><a href="">The Odin Project: Your Career in Web Development Starts Here</a></h3>
-                                 <p>The Odin project empowers aspiring web developers to learn together.</p>
-                                 <span style="color: #70757a; font-size: 13px;">You've visited this page X times. 1 hour ago.</span>
-                                 </div>
-                                 <div class="div-results flex-results" id="third-result" style="">
-                                 <div class="result-link" id="" style="">
-                                 <span style="color:;"><p style="display: inline; background-color:;"><a href="https://www.theodinproject.com/" target="_blank">https://wwww.theodinproject.com</a></p></span>
-                                 <button type="button" class="buttons" id="caret-down" style="font-size: 15px;"><i class="fas fa-caret-down"></i></button>
-                                 </div>
-                                 <h3><a href="">The Odin Project: Your Career in Web Development Starts Here</a></h3>
-                                 <p>The Odin project empowers aspiring web developers to learn together.</p>
-                                 <span style="color: #70757a; font-size: 13px;">You've visited this page X times. 1 hour ago.</span>
-                                 </div> -->
-                            <!-- PLACEHOLDER END   -->
                         </div>
                     </div>
 
@@ -433,12 +400,30 @@
                             </table>
                         </div>
                     </div>
-
-                    <!-- footer div end -->
-                    <div class="content-div" id="div-six">
-                        <p>FOOTER PLACEHOLDER</p>
-                    </div>
                 </div>
+                <footer>
+                    <div class="" id="footer-container">
+                        <div class="footer-div" id="div-location">
+                            <div id="div-country"><p>Peru</p></div>
+                            <div id="specific-location-div">
+                                <div class="location-span little-ball"></div>
+                                <span class="location-span">Los Ángeles, Chaclacayo</span>
+                                <span class="location-span blue">From your device</span>
+                                <span class="location-separator">-</span>
+                                <span class="location-span blue">Update location</span>
+                            </div>
+                        </div>
+                        <div class="footer-div" id="footer-information">
+                            <div class="" id="help-div">
+                                <span class="footer-extras">Help</span>
+                                <span class="footer-extras">Send feedback</span>
+                                <span class="footer-extras">Privacy</span>
+                                <span class="footer-extras">Terms</span>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
             </main>
         </body>
     </html>

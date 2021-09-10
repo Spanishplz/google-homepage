@@ -3,6 +3,9 @@
                  background-color:;
                  line-height: 1.58;
              }
+             #main-body {
+                 margin-top: 20px;
+             }
              .box {
                  border: 1px solid green;
              }
@@ -22,21 +25,21 @@
                  display: grid;
                  grid-template-columns: 160px 750px 1fr 150px;
                  grid-template-rows: 69px;
-                 border: 5px solid green;
+                 /* border: 5px solid green; */
                  height: auto;
              }
              #div-two {
+                 margin-top: 10px;
                  display: grid;
-                 grid-template-columns: 615px 235px 1fr;
-                 grid-template-rows: 58px;
-                 border: 5px solid orange;
+                 /* grid-template-columns: 615px 235px 1fr; */
+                 grid-template-columns: 220px 570px 1fr;
+                 /* border: 5px solid orange; */
                  /*                  height: auto; */
              }
 
              /* grid test  */
              .div-box {
-                 border: 2px solid crimson;
-                 background: ;
+                 /* border: 2px solid crimson; */
              }
              #div-image {
                  /*                  align: center; */
@@ -61,20 +64,25 @@
                  justify-content: center;;
                  align-items: center;
              }
+             #search-div-container {
+                 border: 1px solid lightgrey;
+                 padding: 5px 20px 5px 20px;
+                 border-radius: 50px;
+             }
              #typed-input {
                  width: 570px;
                  height:40px;
+                 border: none;
              }
              .buttons {
                  border: none;
-                 height:;
                  width: 24;
                  background-color: white;
              }
              #delete-input {
                  /* border-color: white;
                     background-color: white */
-                 color: grey;
+                 color: grey;    
              }
              #search-input {
                  color: #4285f4;
@@ -88,6 +96,7 @@
                     background-color: white; */
              }
              #div-settings {
+                 grid-column-start: 4;
                  display: flex;
                  justify-content: center;
                  align-items: center;
@@ -99,21 +108,26 @@
 
              /* Flexbox test end */
              #div-searchtypes {
+                 /* border: 1px solid red; */
+                 grid-column-start: 2;
                  display: flex;
-                 justify-content: flex-end;
+                 justify-content: flex-start;
                  align-items: flex-end;
 
              }
              .search-icons {
                  border: none;
-                 height:;
-                 width: ;
-                 background-color: white;
-
+                 background-color: transparent;
+                 margin-left: 5px;
+             }
+             .search-icons span {
+                 display: inline-block;
+                 margin-left: 10px;
+                 font-weight: 100;
              }
              #div-tools {
                  display: flex;
-                 justify-content: flex-end;
+                 justify-content: flex-start;
 
              }
              #tools-icon {
@@ -124,7 +138,7 @@
                  display: grid;
                  grid-template-columns: 225px 652px 1fr;
                  grid-template-rows: 48px;
-                 border: 5px solid blue;
+                 /* border: 5px solid blue; */
              }
              #search-counter {
                  grid-column-start: 2;
@@ -395,7 +409,7 @@
                  flex-direction: column;
                  position: relative;
                  text-align: center;
-                 margin-top: 20px;
+                 margin-top: 50px;
              }
              #show-more-button {
                  height: 36px;
@@ -691,36 +705,82 @@
 
              /* FOOTER  */
              footer {
-                 background-color: red;
+                 background-color: #f2f2f2;
+                 margin-top: 40px;
 
              }
              #footer-container {
+                 font-size: 14px;
                  display: flex;
                  height: 105px;
                  flex-direction: column;
                  justify-content: center;
-                 align-items: center;
+                 align-items: cennter;
 
              }
              .footer-div {
-                 border: 1px solid black;
                  height: 41px;
                  width: 90%;
-                 background-color: lightgreen;
              }
              #div-location {
                  display: grid;
-                 grid-template-columns: 190px 50px 200px 50px;
+                 grid-template-columns: 240px 50px 1fr;
              }
              #div-country {
                  grid-column-start: 2;
+                 display: flex;
+                 justify-content: right;
+                 align-items: center;
+                 margin-right: 10px;
              }
-             #location-div {
+             #specific-location-div {
+                 border-left: 1px solid #dadce0;
                  grid-column-start: 3;
                  display: flex;
                  flex-direction: row;
                  flex-wrap: nowrap;
+                 justify-content: left;
+                 align-items: center;
+             }
+             #specific-location-div span {
+                 margin-left: 10px;
+
+             }
+             #specific-location-div div {
+                 margin-left: 10px;
+                 background-color:  #70757a;
+                 width: 10px;
+                 height: 10px;
+                 border: 1px solid #70757a;
+
+             }
+
+             .little-ball {
+                 border-radius: 20px;
              }
              .location-span {
                  display: inline-block;
              }
+             #specific-location-div .blue {
+                 color: #5495eb;
+             }
+
+             #footer-information {
+                 border-top: 1px solid #dadce0;
+                 display: grid;
+                 grid-template-columns: 243px 400px 1fr;
+             }
+             #help-div {
+                 grid-column-start: 2;
+                 display: flex;
+                 align-items: center;
+             }
+
+             .footer-extras {
+                 margin-right: 15px;
+                 color: #96999d;
+             }
+             #footer-container #div-country {
+                 color: #96999d;
+             }
+
