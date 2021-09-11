@@ -4,12 +4,9 @@
             <script></script>
             <link rel="stylesheet" href="css_reset.css">
             <link rel="stylesheet" href="default.css">
-            <!-- <script src="https://kit.fontawesome.com/a663ccc474.js" crossorigin="anonymous"></script> -->
-            <!-- <script
-                 src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
-                 data-search-pseudo-elements
-                 ></script> -->
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                  rel="stylesheet">
             <title>The Odin Project - Google</title>
             <style>
             </style>
@@ -24,7 +21,7 @@
                         </div>
                         <div class="div-box" id="div-search">
                             <div id="search-div-container">
-                                <input type="text" class ="" id="typed-input" placeholder="Search...">
+                                <input type="text" class ="" id="typed-input" placeholder="The Odin Project">
                                 <!-- <button type="reset" class="buttons" id="delete-input"  value="reset"><i class="fas fa-times fa-lg"></i></button> -->
                                 <button type="submit" class="buttons" id="search-input" value="submit"><i class="fas fa-search fa-lg"></i></button>
                             </div>
@@ -38,21 +35,37 @@
                     <div class="content-div" id="div-two">
                         <div class="div-box" id="div-searchtypes">
                             <!-- 7 icons with words -->
-                            <button type="button" class="search-icons" id="search-icon" value=""><i class="fas fa-search fa-lg"></i><span>All</span></button>
-                            <button type="button" class="search-icons" id="images-icon" value=""><i class="fas fa-image fa-lg"></i><span>Images</span></button>
-                            <button type="button" class="search-icons" id="news-icon" value=""><i class="fas fa-newspaper fa-lg"></i><span>News</span></button>
-                            <button type="button" class="search-icons" id="videos-icon" value=""><i class="fab fa-youtube fa-lg"></i></i><span>Videos</span></button>
-                            <button type="button" class="search-icons" id="books-icon" value=""><i class="fas fa-book fa-lg"></i><span>Books</span></button>
-                            <button type="button" class="search-icons" id="more-icon" value=""><i class="fas fa-ellipsis-v fa-lg"></i><span>More</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="material-icons md-17 colored">search</span><span class="span-next-to colored">All</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="material-icons md-17">crop_original</Span><span class="span-next-to">Images</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="material-icons md-17">slideshow</span><span class="span-next-to">Videos</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="material-icons md-17">search</span><span class="span-next-to">News</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="material-icons md-17">book</span><span class="span-next-to">Books</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="material-icons md-17">more_vert</span><span class="span-next-to">More</span></button>
+
+
+
+
+                            <!--
+                                 <span class="material-icons md-17">search</span><span class="span-icons">All</span>
+                                 <button type="button" class="search-icons" id="search-icon" value=""><i class="fas fa-search fa-lg"></i><span>All</span></button>
+
+
+                                 <button type="button" class="search-icons" id="search-icon" value=""><i class="fas fa-search fa-lg"></i><span>All</span></button>
+                                 <button type="button" class="search-icons" id="images-icon" value=""><i class="fas fa-image fa-lg"></i><span>Images</span></button> -->
+                            <!-- <button type="button" class="search-icons" id="news-icon" value=""><i class="fas fa-newspaper fa-lg"></i><span>News</span></button>
+                                 <button type="button" class="search-icons" id="videos-icon" value=""><i class="fab fa-youtube fa-lg"></i></i><span>Videos</span></button>
+                                 <button type="button" class="search-icons" id="books-icon" value=""><i class="fas fa-book fa-lg"></i><span>Books</span></button>
+                                 <button type="button" class="search-icons" id="more-icon" value=""><i class="fas fa-ellipsis-v fa-lg"></i><span>More</span></button> -->
                         </div>
                         <div class="div-box" id="div-tools">
-                            <button type="button" class="search-icons" id="tools-icon" value=""><i class="fas fa-search"></i><span>Tools</span></button>
+                            <button type="button" class="search-types-icons-buttons"><span class="span-next-to">Tools</span></button>
                             <!-- just whitespace  -->
                         </div>
                     </div>
                     <!-- results number end -->
                     <!-- search results -->
                     <div class="content-div" id="div-three">
+                        <div id="blue-rectangle"></div>
                         <div class="div-box" id="search-counter">
                             <p>About 29,200,000 results (0.45 seconds)</p>
                         </div>
@@ -68,7 +81,7 @@
                                         <span style="color:;"><p style="display: inline; background-color:;"><a href="https://www.theodinproject.com/" target="_blank">https://wwww.theodinproject.com</a></p></span>
                                         <button type="button" class="buttons" id="caret-down" style="font-size: 15px;"><i class="fas fa-caret-down"></i></button>
                                     </div>
-                                    <h3><a href="https://www.theodinproject.com/dashboard">The Odin Project: Your Career in Web Development Starts Here</a></h3>
+                                    <h3 style=""><a href="https://www.theodinproject.com/dashboard">The Odin Project: Your Career in Web Development Starts Here</a></h3>
                                     <p>The Odin project empowers aspiring web developers to learn together.</p>
                                     <span style="color: #70757a; font-size: 13px;">You've visited this page X times. 1 hour ago.</span>
                                 </div>
