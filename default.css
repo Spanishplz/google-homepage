@@ -195,9 +195,9 @@
                  flex-wrap: wrap;
              }
              .mini-result {
-                 margin-top: 15px;
+                 margin-top: 10px;
                  margin-left: 20px;
-                 margin-bottom: 10px;
+                 margin-bottom: 5px;
                  /* display: inline-block; */
              }
              #first-result {
@@ -259,6 +259,9 @@
                  /* float: right; */
              }
              /* VIDEO RESULTS */
+             #videos-result {
+                 height: 700px;
+             }
              #video-block {
                  padding: 12px 0px 0px 0px;
              }
@@ -284,7 +287,7 @@
                  font-size: 25px;
              }
              .video-images {
-                 width: 127;
+                 width: 127px;
                  vertical-align: middle;
                  border-radius: 5px;
                  margin-right: 20px;
