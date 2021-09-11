@@ -16,6 +16,6 @@ New things:
 - Learned a little about SVG images and how to use them. Trying to format some of the ones that were already made. I could put some text next to them too.
 - Got better at using the "grab a color" tool to make the page look similar.
 - Doing this project I got better at using the text editor. Found some useful hotkey to speed things up.
-- I just found out about "https://fonts.google.com/icons". So I just realize that I need to learn better the explanation of the projects. Got my icons from somewhere else.
+- I just found out about "https://fonts.google.com/icons". So I just realize that I need to read better the explanation of the projects. Got my icons from somewhere else.
 
 This was a good start!
